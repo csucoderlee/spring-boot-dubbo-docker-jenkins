@@ -6,7 +6,7 @@
 	<groupId>org.csu</groupId>
 	<artifactId>common-controller</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+    <packaging>war</packaging>
 
 	<name>common-controller</name>
 	<description>Demo project for Spring Boot</description>
@@ -45,6 +45,12 @@
 			<!--</plugin>-->
 		<!--</plugins>-->
 	<!--</build>-->
-
+	<dependencies>
+		<dependency>
+			<groupId>org.csu</groupId>
+			<artifactId>common-user</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
